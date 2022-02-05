@@ -164,3 +164,32 @@
 .two-columns__paragraph:nth-child(2) {
   padding: 30px 0;
 }
+
+.digits__item {
+  padding: 100px 0 ;
+}
+
+.section-title {
+  margin: 0;
+}
+
+.section-subtitle {
+  margin: 0;
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+}
+
+.table__cell {
+  list-style: none;
+}
+
+.table__heading {
+  margin: 0;
+}
+
+.table__text {
+  margin: 0;
+}
