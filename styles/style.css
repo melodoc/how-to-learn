@@ -112,3 +112,55 @@
   margin-top: 80px;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.content__item {
+  padding: 100px 0 ;
+}
+
+.two-columns{
+  display: flex;
+  justify-content: space-between;
+
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+
+  color: var(--blue);
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%; 
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.two-columns__paragraph:nth-child(2) {
+  padding: 30px 0;
+}
