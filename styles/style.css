@@ -1,3 +1,9 @@
+:root {
+  --left-padding: 64px;
+
+  --blue: #2f80ed;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -10,19 +16,90 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.logo {
+  height: 32px;
+  width: 183px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: var(--left-padding);
+}
+
+.header__title {
+  align-self: center;
+  
+  width: 730px;
+  margin: 0;
+  padding-left: var(--left-padding);
+
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  
+  width: 388px;
+  margin: 0;
+  padding-left: var(--left-padding);
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header_link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.header_link::after {
+  content: " →";
+}
+
+.header_link:hover {
+  text-decoration: underline;
+}
+
+.header_link:visited {
+  color: var(--blue);
+}
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  z-index: -1;
+
+  height: 608px;
+  width: 765px;
+}
+
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: -2;
+
+  height: 568px;
+  width: 568px;
+  background-color: var(--blue);
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
