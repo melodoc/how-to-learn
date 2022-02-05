@@ -2,6 +2,7 @@
   --left-padding: 64px;
 
   --blue: #2f80ed;
+  --gray: #f2f2f2;
 }
 
 .page {
@@ -19,11 +20,13 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  
+
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+
+  background-color: var(--gray);
 }
 
 .logo {
@@ -39,7 +42,8 @@
 
 .header__title {
   align-self: center;
-  
+  z-index: 2;
+
   width: 730px;
   margin: 0;
   padding-left: var(--left-padding);
@@ -52,7 +56,8 @@
 .header__subtitle {
   position: absolute;
   bottom: 30px;
-  
+  z-index: 2;
+
   width: 388px;
   margin: 0;
   padding-left: var(--left-padding);
@@ -84,7 +89,7 @@
   right: 0;
   bottom: 0;
 
-  z-index: -1;
+  z-index: 1;
 
   height: 608px;
   width: 765px;
@@ -94,7 +99,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -2;
 
   height: 568px;
   width: 568px;
