@@ -259,8 +259,22 @@
 
   width: 648px;
   text-align: center;
+
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: var(--semibold);
 }
 
 .feynman__subtitle {
   margin: 0;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: var(--normal);
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: var(--normal);
 }
