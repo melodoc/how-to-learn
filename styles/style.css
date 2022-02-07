@@ -72,23 +72,23 @@
   font-weight: var(--normal);
 }
 
-.header_link,
+.header__link,
 .feynman__link {
   color: var(--blue);
   text-decoration: none;
 }
 
-.header_link::after,
+.header__link::after,
 .feynman__link::after {
   content: " →";
 }
 
-.header_link:hover,
+.header__link:hover,
 .feynman__link:hover {
   text-decoration: underline;
 }
 
-.header_link:visited,
+.header__link:visited,
 .feynman__link:visited {
   color: var(--blue);
 }
