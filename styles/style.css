@@ -343,3 +343,17 @@
   background-image: url("../images/triangle.svg");
   background-size: contain;
 }
+
+.footer__author {
+  margin: 0;
+}
+
+.footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column-heading {
+  margin: 0;
+}
