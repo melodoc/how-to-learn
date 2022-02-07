@@ -240,17 +240,18 @@
 
 
 .feynman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  height: 55vh;
+  padding: var(--block-offset);
+
   background-image: url("../images/feinman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 867px 637px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 55vh;
-
-  padding: var(--block-offset);
 }
 
 .feynman__title {
@@ -274,6 +275,10 @@
 }
 
 .feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+
   line-height: 51px;
   font-size: 36px;
   font-weight: var(--normal);
