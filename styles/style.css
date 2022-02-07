@@ -19,7 +19,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 /* стиль для ссылок со стрелкой */
@@ -237,7 +237,6 @@
   font-weight: var(--normal);
 }
 
-
 .feynman {
   display: flex;
   flex-direction: column;
@@ -317,7 +316,7 @@
 .table__cell_theme_dark {
   width: 200px;
   color: var(--white);
-  margin-top: 80px
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -422,7 +421,6 @@
   font-size: 18px;
   font-weight: var(--semibold);
 }
-
 
 .footer__social-icon {
   width: 16px;
