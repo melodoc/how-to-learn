@@ -21,6 +21,20 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* стиль для ссылок со стрелкой */
+
+.link::after {
+  content: " →";
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: var(--blue);
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -76,21 +90,6 @@
 .feynman__link {
   color: var(--blue);
   text-decoration: none;
-}
-
-.header__link::after,
-.feynman__link::after {
-  content: " →";
-}
-
-.header__link:hover,
-.feynman__link:hover {
-  text-decoration: underline;
-}
-
-.header__link:visited,
-.feynman__link:visited {
-  color: var(--blue);
 }
 
 .header__main-illustration {
