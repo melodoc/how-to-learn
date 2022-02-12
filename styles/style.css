@@ -365,16 +365,16 @@
 
 /* стиль для ссылок футера */
 
-.footer__link {
+.footer__column-link {
   text-decoration: none;
   color: #ffffff;
 }
 
-.footer__link:hover {
+.footer__column-link:hover {
   text-decoration: underline;
 }
 
-.footer__link:visited {
+.footer__column-link:visited {
   color: var(--white);
 }
 
