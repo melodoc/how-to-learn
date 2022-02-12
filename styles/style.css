@@ -54,7 +54,7 @@
   width: 183px;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: var(--left-padding);
@@ -356,7 +356,7 @@
   width: 90%;
 }
 
-.footer__column__content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
