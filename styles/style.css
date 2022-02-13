@@ -9,6 +9,17 @@
   /* fonts */
   --normal: 400;
   --semibold: 700;
+
+  --hover-opacity: 0.6;
+}
+
+@keyframes rotation-square-pic {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .page {
@@ -30,6 +41,8 @@
 
 .link:hover {
   text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
 }
 
 .link:visited {
@@ -47,6 +60,8 @@
   /* выше установили ограничения для секции */
 
   background-color: var(--gray);
+
+  overflow: hidden;
 }
 
 .logo {
@@ -112,6 +127,10 @@
   height: 568px;
   width: 568px;
   background-color: var(--blue);
+}
+
+.rotation {
+  animation: rotation-square-pic 20s linear infinite;
 }
 
 .description {
@@ -373,6 +392,8 @@
 
 .footer__column-link:hover {
   text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
 }
 
 .footer__column-link:visited {
