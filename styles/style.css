@@ -238,7 +238,7 @@
   position: relative;
 
   min-height: 890px;
-  margin: var(--block-offset);
+  padding: var(--block-offset);
 
   background-image: url("../images/feinman.png");
   background-repeat: no-repeat;
