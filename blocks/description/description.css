@@ -1,1 +1,6 @@
+.description {
+  display: flex;
+  justify-content: center;
 
+  margin: var(--block-offset);
+}

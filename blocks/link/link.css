@@ -1,1 +1,15 @@
+/* стиль для ссылок со стрелкой */
 
+.link::after {
+  content: " →";
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
+}
+
+.link:visited {
+  color: var(--blue);
+}

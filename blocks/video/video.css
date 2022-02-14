@@ -1,1 +1,20 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.video__iframes {
+  position: relative;
+  top: 50px;
+
+  margin: 0 auto;
+}
+
+.video__iframe {
+  padding-right: 20px;
+}
+
+.video__iframe:nth-child(even) {
+  padding-right: 0px;
+}

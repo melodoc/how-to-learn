@@ -1,1 +1,10 @@
+.logo {
+  height: 32px;
+  width: 183px;
+}
 
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: var(--left-padding);
+}
