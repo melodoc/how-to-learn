@@ -222,11 +222,19 @@
 
 .cards__title {
   margin-bottom: 16px;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: var(--semibold);
 }
 
 .cards__description {
   margin: 0;
   padding: 0;
+
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: var(--normal);
 }
 
 .cards__image {
