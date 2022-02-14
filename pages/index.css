@@ -1,4 +1,7 @@
 @import url('../vendor/normalize.css');
+
+@import url('../variables/variables.css');
+
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/description/description.css');
@@ -21,4 +24,3 @@
 @import url('../blocks/techniques/techniques.css');
 @import url('../blocks/two-columns/two-columns.css');
 @import url('../blocks/video/video.css');
-@import url('../styles/variables.css');
