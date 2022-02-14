@@ -546,6 +546,12 @@
   background-size: contain;
 }
 
+.resources__logo-zone {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .footer {
   display: flex;
   justify-content: center;
