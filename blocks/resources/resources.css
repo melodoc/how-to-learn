@@ -1,3 +1,5 @@
+@import url('./__logo-zone/resources__logo-zone.css');
+
 .resources {
   display: flex;
   flex-direction: column;
@@ -6,17 +8,4 @@
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 217px;
-}
-
-
-.resources__logo-zone {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-
-  margin: 0;
-  padding: 0;
-  padding-top: 80px;
-
-  list-style: none;
 }
