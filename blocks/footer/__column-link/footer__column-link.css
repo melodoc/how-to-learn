@@ -1,0 +1,16 @@
+/* стиль для ссылок футера */
+
+.footer__column-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
+}
+
+.footer__column-link:visited {
+  color: var(--white);
+}

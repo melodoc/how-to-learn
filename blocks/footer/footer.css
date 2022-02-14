@@ -1,3 +1,12 @@
+@import url('./__author/footer__author.css');
+@import url('./__column/_content/footer__column_content_copyright.css');
+@import url('./__column/_content/footer__column_content_info.css');
+@import url('./__column-heading/footer__column-heading.css');
+@import url('./__column-link/footer__column-link.css');
+@import url('./__column-links/footer__column-links.css');
+@import url('./__columns/footer__columns.css');
+@import url('./__social-icon/footer__social-icon.css');
+
 .footer {
   display: flex;
   justify-content: center;
@@ -9,79 +18,4 @@
 
   background-color: var(--black);
   color: var(--white);
-}
-
-.footer__columns {
-  display: flex;
-  justify-content: space-between;
-
-  width: 90%;
-}
-
-.footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-/* стиль для ссылок футера */
-
-.footer__column-link {
-  text-decoration: none;
-  color: var(--white);
-}
-
-.footer__column-link:hover {
-  text-decoration: underline;
-  opacity: var(--hover-opacity);
-  transition: all ease-in-out 0.16s;
-}
-
-.footer__column-link:visited {
-  color: var(--white);
-}
-
-.footer__author {
-  align-self: flex-start;
-  margin: 18px 0;
-
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: var(--normal);
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-links {
-  margin: 0;
-  padding: 0;
-
-  margin-bottom: 16px;
-  list-style: none;
-
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: var(--normal);
-}
-
-.footer__column-heading {
-  margin: 0;
-  padding: 0;
-
-  margin-bottom: 20px;
-
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: var(--semibold);
-}
-
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-
-  padding-right: 10px;
 }
