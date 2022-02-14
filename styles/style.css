@@ -433,6 +433,64 @@
   font-weight: var(--normal);
 }
 
+.khan {
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
+
+  background-color: var(--gray);
+}
+
+.khan__container {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+}
+
+.khan__author {
+  margin: 0;
+}
+
+.khan__title {
+  margin: 0;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 0;
+
+  margin-top: 50px;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  margin: 0;
+
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+
+  margin-right: 48px;
+
+  object-fit: cover;
+  object-position: top;
+}
+
 /* стиль для ссылок блока хан */
 
 .khan__buy-link {
