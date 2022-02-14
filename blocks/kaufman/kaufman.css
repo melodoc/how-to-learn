@@ -1,3 +1,5 @@
+@import url('./__triangle/kaufman__triangle.css');
+
 .kaufman {
   display: flex;
   flex-direction: column;
@@ -7,17 +9,4 @@
 
   padding: 90px 0;
   background-color: var(--black);
-}
-
-.kaufman__triangle {
-  position: absolute;
-  top: 0;
-  right: -210px;
-  z-index: 0;
-
-  width: 877px;
-  height: 877px;
-
-  background-image: url("../../images/triangle.svg");
-  background-size: contain;
 }
