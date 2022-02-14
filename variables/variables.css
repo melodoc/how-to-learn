@@ -1,15 +1,12 @@
 :root {
-    --left-padding: 64px;
-    --block-offset: 100px 0;
-    --blue: #2f80ed;
-    --gray: #f2f2f2;
-    --black: #1f1f1f;
-    --white: #ffffff;
-  
-    /* fonts */
-    --normal: 400;
-    --semibold: 700;
-  
-    --hover-opacity: 0.6;
-  }
-  
+  --left-padding: 64px;
+  --block-offset: 100px 0;
+  --blue: #2f80ed;
+  --gray: #f2f2f2;
+  --black: #1f1f1f;
+  --white: #ffffff;
+  /* fonts */
+  --normal: 400;
+  --semibold: 700;
+  --hover-opacity: 0.6;
+}
