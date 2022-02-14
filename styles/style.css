@@ -244,6 +244,26 @@
   margin: 60px 40px 43px;
   border-radius: 50%;
 }
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: var(--block-offset);
+}
+
+.video__iframes {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.video__iframe {
+  padding-right: 20px;
+}
+
+.video__iframe:nth-child(even) {
+  padding-right: 0px;
+}
 
 .digits {
   display: flex;
