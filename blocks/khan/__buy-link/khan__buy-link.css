@@ -1,0 +1,20 @@
+/* стиль для ссылок блока хан */
+
+.khan__buy-link {
+  text-decoration: none;
+  color: var(--blue);
+
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: var(--normal);
+}
+
+.khan__buy-link:hover {
+  text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
+}
+
+.khan__buy-link:visited {
+  color: var(--white);
+}
