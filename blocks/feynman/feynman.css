@@ -1,3 +1,7 @@
+@import url('./__link/feynman__link.css');
+@import url('./__subtitle/feynman__subtitle.css');
+@import url('./__title/feynman__title.css');
+
 .feynman {
   display: flex;
   flex-direction: column;
@@ -12,37 +16,4 @@
   background-position: left bottom;
   background-size: 867px 637px;
   background-color: var(--gray);
-}
-
-.feynman__title {
-  margin: 0;
-  margin-bottom: 70px;
-
-  width: 648px;
-  text-align: center;
-
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: var(--semibold);
-}
-
-.feynman__subtitle {
-  margin: 0;
-
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: var(--normal);
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-
-  color: var(--blue);
-  text-decoration: none;
-
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: var(--normal);
 }
