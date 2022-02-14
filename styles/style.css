@@ -50,6 +50,9 @@
   color: var(--blue);
 }
 
+.logo-link::after {
+  content: "";
+}
 .header {
   display: flex;
   flex-direction: row;
