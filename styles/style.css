@@ -433,6 +433,24 @@
   font-weight: var(--normal);
 }
 
+/* стиль для ссылок блока хан */
+
+.khan__buy-link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.khan__buy-link:hover {
+  text-decoration: underline;
+  opacity: var(--hover-opacity);
+  transition: all ease-in-out 0.16s;
+}
+
+.khan__buy-link:visited {
+  color: var(--white);
+}
+
+
 .kaufman__triangle {
   position: absolute;
   top: 0;
@@ -477,7 +495,7 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .footer__column-link:hover {
