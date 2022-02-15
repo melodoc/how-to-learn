@@ -75,6 +75,7 @@
 @import url('../blocks/video/__iframes/video__iframes.css');
 /* Стили блока с ресурсами */
 @import url('../blocks/resources/resources.css');
+@import url('../blocks/resources/__logo/resources__logo.css');
 @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
 /* Стили футера */
 @import url('../blocks/footer/footer.css');
