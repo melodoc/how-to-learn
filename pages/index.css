@@ -42,6 +42,7 @@
 /* Стили блока с логотипом */
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
+@import url('../blocks/logo/_place/logo_place_footer.css');
 @import url('../blocks/logo-link/logo-link.css');
 /* Стили блока с двумя колонками */
 @import url('../blocks/two-columns/two-columns.css');
