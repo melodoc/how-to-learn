@@ -1,4 +1,4 @@
-/* стиль для ссылок без стрелки */
+/* style for links without an arrow */
 
 .logo-link::after {
   content: "";

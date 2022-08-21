@@ -1,4 +1,4 @@
-/* стиль для ссылок со стрелкой */
+/* style for arrow links */
 
 .link::after {
   content: " →";

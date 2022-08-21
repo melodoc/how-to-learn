@@ -1,0 +1,11 @@
+@font-face {
+  src: url(./OpenSansCondensed-Light.ttf) format('truetype');
+  font-family: 'Open_Sans_Condensed';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(./OpenSansCondensed-Bold.ttf) format('truetype');
+  font-family: 'Open_Sans_Condensed';
+  font-weight: bold;
+}

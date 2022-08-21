@@ -1,15 +1,14 @@
-# Проект «Научиться учиться»
+# Project “Learning how to learn”
 
-## Описание
+## Description
 
-Сайт рассказывает про современные и эффективные подходы к обучению и как использовать их в своей жизни 📚🔖🧘
+The site tells about modern and effective approaches to learning and how to use them in your life 📚🔖🧘
 
-## Технологии в проекте
+## Technologies
 
- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-## Авторы
+## The authors
 
-Сделано в рамках прохождения курса **Веб-разработчик** ![Яндекс.Практикум ](./images/logo.svg) 
+Made by melodoc as part of the course **Web Developer** by <img src="./images/logo_header.png" alt="Yandex.Practicum" height="15"/>
