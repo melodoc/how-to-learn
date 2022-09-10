@@ -1,5 +1,9 @@
 # Project “Learning how to learn”
 
+## Link
+
+[Learning how to learn](https://melodoc.github.io/how-to-learn/)
+
 ## Description
 
 The site tells about modern and effective approaches to learning and how to use them in your life 📚🔖🧘
@@ -12,3 +16,7 @@ The site tells about modern and effective approaches to learning and how to use 
 ## The authors
 
 Made by melodoc as part of the course **Web Developer** by <img src="./images/logo_header.png" alt="Yandex.Practicum" height="15"/>
+
+# Feature plans
+
+None
