@@ -6,7 +6,7 @@
 
 ## Description
 
-The site tells about modern and effective approaches to learning and how to use them in your life 📚🔖🧘
+The site tells about modern and effective approaches to learning and how to use them in your life
 
 ## Technologies
 
